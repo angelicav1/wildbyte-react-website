@@ -12,8 +12,7 @@ export default function SideBar() {
             alt='About Wild Byte'
           />
           <p className='aboutMe'>
-            Wild Byte is a project that showcases stories about the natural
-            world that can be enjoyed by everyone!
+            Wild Byte is a project that utilizes natural history and technology to showcase stories of the natural world for everyone to enjoy!
           </p>
         </div>
         <div className='sidebarItem'>
