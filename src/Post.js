@@ -13,12 +13,20 @@ export default function Post() {
           <div className='postCategories'>
             <span className='postCategories'>Animals</span>
           </div>
-          <span className='postTitle'>
-            Coyote (Canis latrans)
-          </span>
-          <hr/>
-          <span className="postDate">1 hour ago</span>
+          <span className='postTitle'>Coyote (Canis latrans)</span>
+          <hr />
+          <span className='postDate'>1 hour ago</span>
         </div>
+        <p className='postDescription'>
+          The coyote, also known as the American jackal, prairie wolf, or brush
+          wolf is a species of canine native to North America. It is smaller
+          than its close relative, the gray wolf, and slightly smaller than the
+          closely related eastern wolf and red wolf.The coyote, also known as
+          the American jackal, prairie wolf, or brush wolf is a species of
+          canine native to North America. It is smaller than its close relative,
+          the gray wolf, and slightly smaller than the closely related eastern
+          wolf and red wolf.
+        </p>
       </div>
     );
 }
