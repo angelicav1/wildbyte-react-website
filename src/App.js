@@ -1,12 +1,12 @@
 import React from "react";
 import TopBar from "./TopBar";
-import Home from "./Home";
+import Single from "./Single";
 
 export default function App() {
   return (
     <>
       <TopBar />
-     <Home />
+     <Single />
     </>
   );
 }
