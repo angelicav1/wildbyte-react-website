@@ -1,12 +1,12 @@
 import React from "react";
 import TopBar from "./TopBar";
-import Write from "./Write";
+import Settings from "./Settings";
 
 export default function App() {
   return (
     <>
       <TopBar />
-     <Write />
+     <Settings />
     </>
   );
 }
