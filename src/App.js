@@ -6,29 +6,18 @@ import Login from './Login';
 import Write from './Write';
 import Settings from './Settings';
 import Single from './Single';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 export default function App() {
   const currentUser = true;
   return (
     <Router>
       <TopBar />
-      <Routes>
-        <Route path='/'>
+      <Switch>
+        <Route path="">
           <Home />
         </Route>
-        <Route path='/posts'>
-          <Home />
-        </Route>
-        <Route path='/register'>{currentUser ? <Home /> : <Register />}</Route>
-        <Route path='/login'>{currentUser ? <Home /> : <Login />}</Route>
-        <Route path='/post/:id'>{<Single />}</Route>
-        <Route path='/write'> {currentUser ? <Write /> : <Login />}</Route>
-        <Route path='/settings'>
-          {' '}
-          {currentUser ? <Settings /> : <Login />}
-        </Route>
-      </Routes>
+      </Switch>
     </Router>
   );
 }

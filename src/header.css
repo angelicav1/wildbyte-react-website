@@ -6,20 +6,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: "Lora", serif;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
     color: #495A34;
+    opacity: 90%;
 }
 
 .headerTitleSmall {
     position: absolute;
-    top: 14%;
-    font-size: 30px;
+    top: 10%;
+    font-size: 40px;
 }
 
 .headerTitleLarge {
     position: absolute;
-    top: 16%;
-    font-size: 100px;
+    top: 13%;
+    font-size: 120px;
 }
 
 .headerImage {
