@@ -5,8 +5,8 @@ const mongoose = require("mongoose");
 
 dotenv.config();
 
-mongoose.connect(process.env.MONGO_URL){
-catch(error => handleError(error));
+mongoose.connect(process.env.MONGO_URL).
+  catch(error => handleError(error));
 
 
 app.listen("3000", () => {
