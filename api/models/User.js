@@ -1,6 +1,8 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
+const { Schema } = mongoose;
 
-const UserSchema = new moongoose.Schema({
+
+const UserSchema = new Schema({
     username:{
         type:String,
         size:String
